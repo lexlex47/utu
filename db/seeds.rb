@@ -47,6 +47,8 @@
 #     currency: currencies.first
 #   }
 # ])
+
+# 处理csv文件
 require 'csv' 
 
 @month = {
@@ -69,6 +71,7 @@ def reload_data
   # Currency.delete_all
 end
 
+# 处理日期时间
 def fetch_date(input)
   input = input.split('-')
   year = "20" + input[-1]
@@ -78,16 +81,19 @@ def fetch_date(input)
   date
 end
 
+# 处理大整数
 def fetch_bigint(input)
   data = input.delete ","
   data.to_i
 end
 
+# 处理float数
 def fetch_float(input)
   data = input.delete ","
   data.to_f
 end
 
+# 加载csv文件，创建对应实例至数据库
 def load_csv  
   CSV.foreach('crypto_historical_data.csv', :headers => true) do |row|
     currency_name = row[0]
