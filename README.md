@@ -43,7 +43,7 @@ You should able to vist `localhost:3000` now.
 ## Output
 Results will output to the `localhost:3000` directly.
 
-![image](https://github.com/lexlex47/utu/blob/main/pics/run.gif)
+![image](https://github.com/lexlex47/utu/blob/main/pics/run2.gif)
 
 ## Testing
 To test moudle use rspec gem.
