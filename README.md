@@ -16,13 +16,25 @@ This project that analyzes crypto currencies data and the requirement is to proc
     ReactJS-Rails
     Postgresql
 
+## Files structure
+    
+    .
+    ├── db                      
+    │   └── seeds.rb            # csv loader
+    ├── app                    
+    │   ├── javascript          # ReactJS components
+    │   ├── controllers         # RoR controllers
+    │   └── models              # RoR models
+    └── spec                    # rspec tests
+
+
 ## Setup
 1.  To install Ruby use `Ruby installer`.
 2.  Install `Ruby Devkit`.
 3.  Install `Rails` by using.
-
+    ```
     gem install rails --version=6.0.3.4
-
+    ```
 4.  Clone the repo.
 5.  Run bundle command.
   
@@ -46,10 +58,9 @@ Results will output to the `localhost:3000` directly.
 ![image](https://github.com/lexlex47/utu/blob/main/pics/run2.gif)
 
 ## Testing
-To test moudle use rspec gem.
+To test moudle use rspec gem. You may add seeds before test.
     
-    bundle exec rspec spec
+    rails db:seed
 
 ## Exit
 Use `CTRL + C` command to stop server.
-"# utu" 
