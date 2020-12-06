@@ -37,15 +37,18 @@ This project that analyzes crypto currencies data and the requirement is to proc
 To run the application use `rails s` command.
 
 You should able to vist `localhost:3000` now.
+
 ![image](https://github.com/lexlex47/utu/blob/main/pics/start%20server.gif)
+
+## Output
+Results will output to the `localhost:3000` directly.
+
+![image](https://github.com/lexlex47/utu/blob/main/pics/run.gif)
 
 ## Testing
 To test moudle use rspec gem.
     
     bundle exec rspec spec
-
-## Output
-Results will output to the `localhost:3000` directly.
 
 ## Exit
 Use `CTRL + C` command to stop server.
