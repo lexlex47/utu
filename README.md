@@ -37,14 +37,15 @@ This project that analyzes crypto currencies data and the requirement is to proc
     ```
 4.  Clone the repo.
 5.  Run bundle command.
-  
+    ```
     bundle install
-
+    ```
 6.  May need .env for database configuration.
-
+    ```
     DBUSERNAME = 'alapp'
     DBPASSWORD = 'Password123'
-  
+    ```
+
 ## Running
 To run the application use `rails s` command.
 
