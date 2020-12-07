@@ -1,6 +1,10 @@
 # Cryptocurrency application
 This project that analyzes crypto currencies data and the requirement is to process historical price list of currencies provided by a currency exchange.
 
+## Heroku
+This project deployed on heroku as sample.
+https://hidden-depths-16554.herokuapp.com/
+
 ## Tasks
 1.  Ability to setup the data in Relational Database or Nosql Database
 2.  Ability to retrieve data from a database
