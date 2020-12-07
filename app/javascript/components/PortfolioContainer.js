@@ -15,7 +15,21 @@ class PortfolioContainer extends Component {
 
     handleChange(e){
 
-      axios.post('http://localhost:3000/search', {
+      // for localhost
+      // axios.post('http://localhost:3000/search', {
+      //   search: e.target.value
+      // })
+      // .then((data) => {
+      //   this.setState({
+      //     search_results: {...data.data.currencies}
+      //   })
+      // })
+      // .catch((data) => {
+      //   debugger
+      // })
+
+      // for heroku
+      axios.post('https://hidden-depths-16554.herokuapp.com/search', {
         search: e.target.value
       })
       .then((data) => {
