@@ -1,4 +1,5 @@
 # Cryptocurrency application
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8f56d9d6cf064082ab267f8918d7ca34)](https://www.codacy.com/gh/lexlex47/utu/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lexlex47/utu&amp;utm_campaign=Badge_Grade)
 This project that analyzes crypto currencies data and the requirement is to process historical price list of currencies provided by a currency exchange.
 
 ## Heroku
